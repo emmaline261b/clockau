@@ -1,1 +1,7 @@
-<p>footer works!</p>
+<ng-container *ngIf="isFooter" class="footer">
+    <div class="footer-row">
+        <div class="footer-message">
+            {{message}}
+        </div>
+    </div>
+</ng-container>

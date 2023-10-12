@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+.footer {
+    display: flex;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+
+.footer-message {
+    font-family: 'Roboto Mono', monospace;
+}

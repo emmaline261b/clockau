@@ -7,4 +7,6 @@ import { Component } from '@angular/core';
 })
 export class FooterComponent {
 
+  isFooter : boolean = true;
+  message : string = "Learn about time and dates with the Introvert's Guide!"
 }

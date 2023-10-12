@@ -8,10 +8,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0 1rem;
 }
 
 .header-logo {
-  max-width: 3rem;
+  max-width: 4rem;
 }
 
 .header-settings {
