@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
 
 .footer {
-    display: flex;
+    position: fixed;
+    bottom: 2vh;
+    right: 1vw;
 }
 
 .footer-row {
@@ -14,4 +16,5 @@
 
 .footer-message {
     font-family: 'Roboto Mono', monospace;
+    font-size: 12px;
 }

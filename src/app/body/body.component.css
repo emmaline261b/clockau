@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:wght@500&display=swap');
+
+.body-main {
+    font-family: 'Roboto Flex', sans-serif;
+    max-height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.body-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: clamp(2rem, 350px, 8vw);
+    color: #292827;
+}
+
+.body-time {
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 22vw;
+    color: #292827;
+}
